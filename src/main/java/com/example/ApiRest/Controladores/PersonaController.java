@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin("*")
-@RequestMapping(path = "/api/persona")
+@RequestMapping(path = "ApiRest.com/persona")
 public class PersonaController extends BaseControllerImpl<Persona, PersonaService>{
 
     @GetMapping("/search1")
