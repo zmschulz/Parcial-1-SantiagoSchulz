@@ -41,7 +41,7 @@ tasks.named('test') {
 
 sourceSets {
 	test {
-		java.srcDirs = ['com/facu/restfake/RestfakeApplicationTests.java']
+		java.srcDirs = ['com/example/ApiRest/ApiRestApplicationTests.java']
 	}
 }
 
